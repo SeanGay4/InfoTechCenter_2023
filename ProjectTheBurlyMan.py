@@ -7,6 +7,8 @@ drivers know that the InfoTech Center 2023 is loading
 # Import Libraries Here
 import time
 import sys
+import random
+from time import sleep
 
 timetosleep = 2
 
@@ -29,13 +31,10 @@ while x != 20:
         print("\n\nOperating System Loaded - Brain Data Chip Scanned - Access Granted")
 
 
-print("******************************************")
-print("Gasoline Branch\n")
+print("\n******************************************\n")
+print("Checking Current Gasoline Levels\n")
 
-# Import libraries here
-
-import random
-from time import sleep
+sleep(1.5)
 
 # Function that lists Gas Stations, randomly choosing one, and Return its value
 
