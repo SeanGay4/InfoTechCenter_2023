@@ -1,4 +1,4 @@
-
+*
 
 """
  Welcome Screen will start our program letting
